@@ -1,0 +1,4 @@
+CREATE TABLE Departments (
+    dept_no varchar PRIMARY KEY NOT NULL,
+    dept_name varchar   NOT NULL
+);
