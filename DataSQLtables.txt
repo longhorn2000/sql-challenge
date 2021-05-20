@@ -2,3 +2,12 @@ CREATE TABLE Departments (
     dept_no varchar PRIMARY KEY NOT NULL,
     dept_name varchar   NOT NULL
 );
+
+CREATE TABLE Employees (
+    emp_no int PRIMARY KEY  NOT NULL,
+    birth_date date   NOT NULL,
+    first_name varchar   NOT NULL,
+    last_name varchar   NOT NULL,
+    gender varchar   NOT NULL,
+    hire_date date   NOT NULL
+);
