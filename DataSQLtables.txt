@@ -25,3 +25,10 @@ CREATE TABLE Titles (
     from_date date   NOT NULL,
     to_date date   NOT NULL
 );
+
+CREATE TABLE Salaries (
+    emp_no int REFERENCES Employees(emp_no),
+    salary int   NOT NULL,
+    from_date date   NOT NULL,
+    to_date date   NOT NULL
+);
