@@ -18,3 +18,10 @@ CREATE TABLE Dept_Manager (
     from_date date   NOT NULL,
     to_date date   NOT NULL
 );
+
+CREATE TABLE Titles (
+    emp_no int  REFERENCES Employees(emp_no),
+    title varchar   NOT NULL,
+    from_date date   NOT NULL,
+    to_date date   NOT NULL
+);
